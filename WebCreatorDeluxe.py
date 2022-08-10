@@ -8,7 +8,7 @@ import tkinter as tk
 
 root = tk.Tk()
 root.geometry("800x350")
-root.title("Website Builder Deluxe v1.0")
+root.title("Website Builder Deluxe v1.2")
 
 
 totalCount = 0
@@ -31,8 +31,8 @@ def FinishFiles():
 </div>
 <footer id="rcorners2" class="dropdown">
   Located at 1251 State Rd 256, Austin, IN 47102 -- Email: rhondagsmith2@gmail.com -- Phone: 812-794-2222<br>
-  Updated: July 20, 2022
 </footer>
+<script src="http://rhondasrvandauto.com/Slideshow-v_2.js"></script>
 </body>
 </html>
 """)
@@ -58,19 +58,19 @@ def AddtoSite():
 
         <div class="SlideHolder">
           <div class="{imageName}">
-            <img class="panel__image" src="{imageName}_1.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
+            <img class="panel__image" src="http://rhondasrvandauto.com/photo/{imageName}_1.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
           </div>
           <div class="{imageName}">
-            <img class="panel__image" src="{imageName}_2.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
+            <img class="panel__image" src="http://rhondasrvandauto.com/photo/{imageName}_2.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
           </div>
           <div class="{imageName}">
-            <img class="panel__image" src="{imageName}_3.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
+            <img class="panel__image" src="http://rhondasrvandauto.com/photo/{imageName}_3.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
           </div>
           <div class="{imageName}">
-            <img class="panel__image" src="{imageName}_4.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
+            <img class="panel__image" src="http://rhondasrvandauto.com/photo/{imageName}_4.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
           </div>
           <div class="{imageName}">
-            <img class="panel__image" src="{imageName}_5.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
+            <img class="panel__image" src="http://rhondasrvandauto.com/photo/{imageName}_5.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
           </div>
             <a id="LeftButton" onclick="plusSlides(-1, {totalCount})">&#10094</a>
             <a id="RightButton" onclick="plusSlides(1, {totalCount})">&#10095</a>
@@ -114,19 +114,19 @@ def AddtoSite():
 
         <div class="SlideHolder">
           <div class="{imageName}">
-            <img class="panel__image" src="{imageName}_1.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
+            <img class="panel__image" src="http://rhondasrvandauto.com/photo/{imageName}_1.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
           </div>
           <div class="{imageName}">
-            <img class="panel__image" src="{imageName}_2.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
+            <img class="panel__image" src="http://rhondasrvandauto.com/photo/{imageName}_2.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
           </div>
           <div class="{imageName}">
-            <img class="panel__image" src="{imageName}_3.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
+            <img class="panel__image" src="http://rhondasrvandauto.com/photo/{imageName}_3.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
           </div>
           <div class="{imageName}">
-            <img class="panel__image" src="{imageName}_4.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
+            <img class="panel__image" src="http://rhondasrvandauto.com/photo/{imageName}_4.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
           </div>
           <div class="{imageName}">
-            <img class="panel__image" src="{imageName}_5.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
+            <img class="panel__image" src="http://rhondasrvandauto.com/photo/{imageName}_5.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
           </div>
             <a id="LeftButton" onclick="plusSlides(-1, {totalCount})">&#10094</a>
             <a id="RightButton" onclick="plusSlides(1, {totalCount})">&#10095</a>
@@ -170,19 +170,19 @@ def AddtoSite():
 
         <div class="SlideHolder">
           <div class="{imageName}">
-            <img class="panel__image" src="{imageName}_1.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
+            <img class="panel__image" src="http://rhondasrvandauto.com/photo/{imageName}_1.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
           </div>
           <div class="{imageName}">
-            <img class="panel__image" src="{imageName}_2.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
+            <img class="panel__image" src="http://rhondasrvandauto.com/photo/{imageName}_2.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
           </div>
           <div class="{imageName}">
-            <img class="panel__image" src="{imageName}_3.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
+            <img class="panel__image" src="http://rhondasrvandauto.com/photo/{imageName}_3.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
           </div>
           <div class="{imageName}">
-            <img class="panel__image" src="{imageName}_4.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
+            <img class="panel__image" src="http://rhondasrvandauto.com/photo/{imageName}_4.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
           </div>
           <div class="{imageName}">
-            <img class="panel__image" src="{imageName}_5.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
+            <img class="panel__image" src="http://rhondasrvandauto.com/photo/{imageName}_5.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
           </div>
             <a id="LeftButton" onclick="plusSlides(-1, {totalCount})">&#10094</a>
             <a id="RightButton" onclick="plusSlides(1, {totalCount})">&#10095</a>
@@ -226,19 +226,19 @@ def AddtoSite():
 
         <div class="SlideHolder">
           <div class="{imageName}">
-            <img class="panel__image" src="{imageName}_1.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
+            <img class="panel__image" src="http://rhondasrvandauto.com/photo/{imageName}_1.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
           </div>
           <div class="{imageName}">
-            <img class="panel__image" src="{imageName}_2.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
+            <img class="panel__image" src="http://rhondasrvandauto.com/photo/{imageName}_2.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
           </div>
           <div class="{imageName}">
-            <img class="panel__image" src="{imageName}_3.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
+            <img class="panel__image" src="http://rhondasrvandauto.com/photo/{imageName}_3.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
           </div>
           <div class="{imageName}">
-            <img class="panel__image" src="{imageName}_4.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
+            <img class="panel__image" src="http://rhondasrvandauto.com/photo/{imageName}_4.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
           </div>
           <div class="{imageName}">
-            <img class="panel__image" src="{imageName}_5.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
+            <img class="panel__image" src="http://rhondasrvandauto.com/photo/{imageName}_5.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
           </div>
             <a id="LeftButton" onclick="plusSlides(-1, {totalCount})">&#10094</a>
             <a id="RightButton" onclick="plusSlides(1, {totalCount})">&#10095</a>
@@ -282,19 +282,19 @@ def AddtoSite():
 
         <div class="SlideHolder">
           <div class="{imageName}">
-            <img class="panel__image" src="{imageName}_1.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
+            <img class="panel__image" src="http://rhondasrvandauto.com/photo/{imageName}_1.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
           </div>
           <div class="{imageName}">
-            <img class="panel__image" src="{imageName}_2.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
+            <img class="panel__image" src="http://rhondasrvandauto.com/photo/{imageName}_2.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
           </div>
           <div class="{imageName}">
-            <img class="panel__image" src="{imageName}_3.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
+            <img class="panel__image" src="http://rhondasrvandauto.com/photo/{imageName}_3.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
           </div>
           <div class="{imageName}">
-            <img class="panel__image" src="{imageName}_4.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
+            <img class="panel__image" src="http://rhondasrvandauto.com/photo/{imageName}_4.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
           </div>
           <div class="{imageName}">
-            <img class="panel__image" src="{imageName}_5.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
+            <img class="panel__image" src="http://rhondasrvandauto.com/photo/{imageName}_5.jpg" alt="Image of {makeModel.get()} with {extColor.get()} exterior.">
           </div>
             <a id="LeftButton" onclick="plusSlides(-1, {totalCount})">&#10094</a>
             <a id="RightButton" onclick="plusSlides(1, {totalCount})">&#10095</a>
@@ -353,7 +353,7 @@ def CreateFiles():
 <body id="wrapper">
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="rhonda.css">
+        <link rel="stylesheet" href="http://rhondasrvandauto.com/rhonda.css">
         <title>Rhonda's RV/Auto</title>
         <link rel="icon" type="image/x-icon" href="http://rhondasrvandauto.com/photo/RhondaIcon.ico">
         <meta name="description" content="Rhonda's RV and Auto is a buy here pay here car lot. All of our vehicles are sold AS-IS with no warranty. Check out everything we have to sale right at this moment on our official website">
